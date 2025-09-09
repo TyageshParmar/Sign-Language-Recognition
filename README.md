@@ -5,7 +5,7 @@ This project implements a **deep learning-based Sign Language Recognition system
 ## 📌 Project Overview  
 - 🎯 **Goal:** Build a real-time sign language recognition model to assist communication for speech- and hearing-impaired individuals.  
 - 📊 **Dataset:** 55,500 labeled gesture images across **36 classes** (A–Z, 0–9, and “_”).  
-- ⚙️ **Frameworks & Tools:** Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Jupyter.  
+- ⚙️ **Frameworks & Tools:** Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Google colab, Jupyter.  
 - 🚀 **Output:** A production-ready model capable of recognizing gestures from images and real-time webcam input.  
 
 ---
