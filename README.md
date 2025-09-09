@@ -4,7 +4,7 @@ This project implements a **deep learning-based Sign Language Recognition system
 
 ## 📌 Project Overview  
 - 🎯 **Goal:** Build a real-time sign language recognition model to assist communication for speech- and hearing-impaired individuals.  
-- 📊 **Dataset:** 87,000+ labeled gesture images across **36 classes** (A–Z, 0–9, and “_”).  
+- 📊 **Dataset:** 55,500 labeled gesture images across **36 classes** (A–Z, 0–9, and “_”).  
 - ⚙️ **Frameworks & Tools:** Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Jupyter.  
 - 🚀 **Output:** A production-ready model capable of recognizing gestures from images and real-time webcam input.  
 
@@ -33,3 +33,24 @@ Here’s the system in action:
 ```bash
 git clone https://github.com/your-username/sign-language-recognition.git
 cd sign-language-recognition
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Train the model
+```bash
+python train.py
+```
+### 4. Run the demo (Gradio App)
+```bash
+python app.py
+```
+## 📂 Project Structure
+├── data/                 # Dataset (not included in repo)
+├── notebooks/            # Jupyter notebooks for training & experiments
+├── models/               # Saved models
+├── app.py                # Gradio demo app
+├── train.py              # Training script
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
