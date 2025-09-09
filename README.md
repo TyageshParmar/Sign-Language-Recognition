@@ -46,6 +46,16 @@ python train.py
 ```bash
 python app.py
 ```
+### 5. Download model
+```bash
+import requests
+
+url = "https://github.com/TyageshParmar/Sign-Language-Recognition/releases/tag/v1.0.0/sign_language_model.h5"
+r = requests.get(url)
+with open("sign_language_model.h5", "wb") as f:
+    f.write(r.content)
+```
+
 ## 📂 Project Structure  
 
 ```plaintext
