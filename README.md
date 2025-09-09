@@ -46,9 +46,9 @@ python train.py
 ```bash
 python app.py
 ```
-## 📂 Project Structure
+## 📂 Project Structure  
 
-
+```plaintext
 ├── data/                 # Dataset (not included in repo)
 ├── notebooks/            # Jupyter notebooks for training & experiments
 ├── models/               # Saved models
